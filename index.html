@@ -1,0 +1,57 @@
+<!DOCTYPE >
+<html html ng-app>
+<head>
+	<title>Angular 101</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- adding my css after the bootstrap reset -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<!-- <label>Name:</label> <input type="text" ng-model="name"/>
+<label>Name 2:</label> <input type="text" ng-model="name"/>
+<label>Name 3:</label> <input type="text" ng-model="name"/>
+ -->
+
+
+<!--  <label>First Name:</label> <input type="text" ng-model="first"/>
+ <label>Last Name:</label> <input type="text" ng-model="last"/>
+hello, {{first}} {{last}} -->
+
+<!-- Practicing with Angular JS -->
+<form style="float:left">
+Name:<input type="text" ng-model="Name"/><br/>
+Address:<input type="text" ng-model="Address"/><br/>
+City:<input type="text" ng-model="City"/><br/>
+State<input type="text" ng-model="State"/><br/>
+Zip:<input type="text" ng-model="Zip"/><br/>
+</form>
+
+<div style="border: 1px solid black; display:inline-block; float:right; width:250px; height:250px;">
+<span> Name: {{Name}}</span> <br/>
+<span> Address: {{Address}} </span><br/>
+ <span>City: {{City}} </span><br/>
+<span> State: {{State}} </span><br/>
+<span> Zip: {{Zip}} </span><br/>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+<!-- addig Jquery before bootstrap js -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> -->
+<!-- Latest compiled and minified JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
+<!-- Adding my own script tag -->
+<!-- <script type="text/javascript" src="js/script.js"></script> -->
+</body>
+</html>
